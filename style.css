@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.outer-circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid rgb(64, 64, 64);
+    background-color: black;
+    position: relative;
+}
+.middle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(160, 160, 160);
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
+.num{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+}
+.num1{
+    position: absolute;
+    top: 20px;
+    right: 110px;
+}
+.num2{
+    position: absolute;
+    top: 135px;
+    right: 100px;
+}
+.num3{
+    position: absolute;
+    top: 45%;
+    right: 0px;
+    font-size: 40px;
+}
+.num6{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 40px;
+}
+.num9{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    font-size: 40px;
+}
+.num12{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    font-size: 40px;
+}
+.hour{
+    position: absolute;
+    top: 104px;
+    left: 203px;
+    height: 100px;
+    width: 4px;
+    background-color: white;
+    transform-origin: bottom;
+}
+.minute{
+    position: absolute;
+    top: 55px;
+    left: 203px;
+    height: 150px;
+    width: 4px;
+    background-color: white;
+    transform-origin: bottom;
+}
+.second{
+    position: absolute;
+    top: 55px;
+    left: 205px;
+    height: 150px;
+    width: 4px;
+    background-color: red;
+    transform-origin: bottom;
+
+}
+
